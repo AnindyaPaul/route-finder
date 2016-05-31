@@ -1,0 +1,113 @@
+20 districts
+Barisal
+Bandarban
+Brahmanbaria
+Chandpur
+Chittagong
+Comilla
+Noakhali
+Dhaka
+Gazipur
+Kishoreganj
+Tangail
+Jessore
+Khulna
+Kushtia
+Satkhira
+Mymensingh
+Pabna
+Rajshahi
+Rangpur
+Sylhet
+
+
+
+distance in km
+duration in hour
+
+node node company fare distance duration
+barisal dhaka Abdullah Paribahan 300 243 5.5
+barisal dhaka Sharbik Paribahan 200 243 5.5
+chittagong dhaka Shohagh Paribahan 400 273 6
+comilla dhaka Sheba Paribahan 130 119 2.5
+comilla dhaka Ekono Paribahan 200 119 2.5
+noakhali dhaka Ekono Paribahan 220 183 4
+noakhali dhaka Al-Arafa 190 183 4
+noakhali dhaka Sheba Paribahan 150 183 4
+noakhali dhaka V.I.P 200 183 4
+dhaka gazipur Shohel Paribahan 200 37 0.75
+dhaka gazipur Jolsiri 120 37 0.75
+dhaka kishoreganj Mohanogor 180 106 2.45
+dhaka tangail Dhalessory Seatting Service 90 84 2.85
+dhaka jessore Satkhira Express 300 201 4.5
+dhaka jessore S.P Gloden line 450 201 4.5
+dhaka jessore Shohagh Paribahan 375 201 4.5
+dhaka khulna AK Travels 300 245 5.5
+dhaka khulna Shohagh Paribahan 375 245 5.5
+dhaka kushtia SB Super Delux 300 244 5.5
+dhaka satkhira Satkhira Express 250 263 5.95
+dhaka satkhira S.P Gloden line 450 263 5.95
+dhaka satkhira AK Travels 350 263 5.95
+dhaka mymensingh Ena tranport pvt Ltd 220 109 2.45
+dhaka mymensingh Shoukhin Paribahan 120 109 2.45
+dhaka pabna Shamoli Paribahan 325 226 5
+dhaka pabna Pabna Express 325 226 5
+dhaka rangpur SR Travels 300 296 6.5
+dhaka sylhet Ahamed Paribahan 225 238 5.25
+dhaka sylhet Mamun Enterprise 200 238 5.25
+satkhira jessore United Paribahan 75 74 1.5
+satkhira khulna Parjatak Paribahan 70 59 1.35
+satkhira khulna SB Super Deluxe 120 59 1.35
+pabna rajshahi Parjatak Paribahan 135 101 2.25
+bogra rajshahi Nabil Paribahan 140 106 2.30
+bogra pabna United Paribahan 130 121 2.75
+bogra tangail Sakura Paribahan 100 107 2.5
+bogra mymensingh Parjatak Paribahan 160 171 3.75
+bogra rangpur United Paribahan 110 107 2.5
+mymensingh pabna SB Super Deluxe 280 210 4.75
+mymensingh rajshahi Nabil Paribahan 300 226 5
+mymensingh sylhet SB Super Deluxe 350 282 6.25
+barisal khulna Sakura Paribahan 150 145 3.25
+barisal chandpur Azmir Paribahan 150 126 2.75
+barisal chandpur Hanif Enterprise 135 126 2.75
+barisal satkhira Ehsan Paribahan 220 191 4.25
+barisal jessore Aziz Travels 265 207 4.5
+barisal comilla Keya Paribahan 285 177 4.95
+barisal chittagong Aziz Travels 300 241 5.20
+bandarban chittagong Aziz Travels 80 71 1.5
+bandarban chandpur Nazim Paribahan 350 298 6.55
+bandarban barisal Rumin Paribahan Ltd. 390 338 7.5
+bandarban comilla Azmir Paribahan 310 238 5.3
+brahmanbaria kishoreganj Rumin Paribahan Ltd. 100 81 1.8
+brahmanbaria sylhet Aziz Travels 180 156 3.5
+chandpur comilla Babul Enterprise 85 83 1.8
+chandpur khulna Ehsan Paribahan 240 194 4.35
+chandpur satkhira Meghna Travel Pvt. Ltd. 310 240 5.35
+chandpur chittagong Meghna Travel Pvt. Ltd. 280 201 4.5
+chittagong bandarban Meghna Travel Pvt. Ltd. 100 71 1.55
+comilla brahmanbaria Aziz Travels 95 62 1.45
+noakhali barisal Keya Paribahan 120 120 2.7
+noakhali khulna Babul Enterprise 330 231 5.15
+noakhali comilla Babul Enterprise 100 75 1.7
+noakhali chittagong Rumin Paribahan Ltd. 165 132 2.95
+noakhali bandarban NP Paribahan 265 203 4.5
+gazipur tangail Soudia Paribahan 85 69 1.5
+gazipur kishoreganj Aziz Travels 95 74 1.6
+gazipur brahmanbaria NP Paribahan 135 100 2.25
+gazipur pabna Pabna Express 300 212 4.75
+kishoreganj mymensingh Hamim Paribahan Pvt. Ltd. 110 71 1.55
+kishoreganj tangail Babul Enterprise 150 103 2.3
+kishoreganj sylhet Soudia Paribahan 310 215 4.85
+tangail mymensingh Nazim Paribahan 145 96 2.15
+tangail rajshahi Soudia Paribahan 220 161 3.55
+tangail brahmanbaria Hamim Paribahan Pvt. Ltd. 210 163 3.6
+jessore khulna Soudia Paribahan 100 65 1.5
+jessore khulna Hanif Enterprise 110 65 1.5
+kushtia rajshahi Hamim Paribahan Pvt. Ltd. 150 119 2.4
+kushtia pabna Pabna Express 80 56 1.25
+kushtia tangail Nazim Paribahan 220 163 3.6
+kushtia jessore Soudia Paribahan 120 91 2
+satkhira khulna Hamim Paribahan Pvt. Ltd. 90 59 1.3
+rajshahi pabna Nazim Paribahan 140 101 2.25
+rajshahi tangail Soudia Paribahan 210 161 3.4
+rangpur kishoreganj Soudia Paribahan 450 361 8

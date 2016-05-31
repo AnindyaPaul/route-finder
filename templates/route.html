@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<!-- Bootstrap -->
+<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="/static/bootstrap/js/jquery.min.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Styles -->
+<link
+	href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700'
+	rel='stylesheet' type='text/css'>
+<link href='/static/css/styles.css' rel='stylesheet' type='text/css'>
+
+<title>Inter City Route Finder</title>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h2 class="text-center">Inter City Route Finder</h2>
+
+
+			<div class="well">
+					<p class="text-center">*All cost in BDT, time in Hours and distance in KM.</p>
+					<hr></hr>
+					<!-- 
+					<ol>
+
+						{% for node in P1 %}
+						<p>
+							{% if node.bus %}
+							<li>Go to <strong>{{ node.city }}</strong> by <strong>{{node.bus }}
+							</strong> for {{ node.cost }}TK {{ node.time }}hr {{node.dist}}km</li>
+							{% else %}
+							<li>Start from <strong>{{ node.city }}</strong></li> {% endif %}
+						</p>
+						{% endfor %}
+						<p>Total {{ icost }}TK {{itime}}hr {{idist}}km</p>
+					</ol>
+					 -->
+					
+					
+					<table class="table">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Bus</th>
+							<th>Fare</th>
+							<th>Time</th>
+							<th>Distance</th>
+						</tr>
+					</thead>
+					<tbody>
+					{% for node in P1 %}
+						<tr>
+						{% if node.bus %}
+							<td>Go to <strong>{{ node.city }}</td>
+							<td>{{node.bus }}</td>
+						{% else %}
+							<td>Start from <strong>{{ node.city }}</strong></td>
+							<td></td>
+						{% endif %}
+							<td>{{ node.cost }}</td>
+							<td>{{ node.time }}</td>
+							<td>{{ node.dist }}</td>
+						</tr>
+					{%endfor%}
+						<tr>
+							<td>Total</td>
+							<td></td>
+							<td><strong>{{ icost }}</strong></td>
+							<td><strong>{{itime}}</strong></td>
+							<td><strong>{{idist}}</strong></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
