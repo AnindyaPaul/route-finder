@@ -1,6 +1,6 @@
 {
   "name": "Route Finder",
   "tagline": "Find bus route from one city to another.",
-  "body": "Route finder is a very simple small scale project. The user can enter a source and a destination and the system will find out the best route for them according to their priority - time, fare or distance. The data is made up. The main focus was to implement Dijkstra's shortest path algorithm in a project.\r\n\r\n##Screenshots\r\n![Home page](http://imgur.com/f3gMRqT)\r\n![Best route](http://imgur.com/f3gMRqT)\r\n\r\n##Implementation\r\nWe build a graph from the database of edges. Then we run Dijkstra's shortest path algorithm for weighted graph. Thus we find the shortest path based on the priority set by the user. We simply build the path and show it to the user.",
+  "body": "Route finder is a very simple small scale project. The user can enter a source and a destination and the system will find out the best route for them according to their priority - time, fare or distance. The data is made up. The main focus was to implement Dijkstra's shortest path algorithm in a project.\r\n\r\n##Screenshots\r\n![Home page](http://i.imgur.com/f3gMRqT.png)\r\n![Best route](http://i.imgur.com/t4ic6dZ.png)\r\n\r\n##Implementation\r\nWe build a graph from the database of edges. Then we run Dijkstra's shortest path algorithm for weighted graph. Thus we find the shortest path based on the priority set by the user. We simply build the path and show it to the user.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
